@@ -10,12 +10,12 @@ curl_setopt_array($curl, [
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{\"app_key\":\"4f6o0cjiki2rfm34kfdadl1eqq\",\"app_secret\":\"2is7hdktrekvrbljjh44ll3d9l1dtjo4pasmjvs5vl5qr3fug4b\"}",
+  CURLOPT_POSTFIELDS => "{\"app_key\":\"\",\"app_secret\":\"\"}",
   CURLOPT_HTTPHEADER => [
     "Accept: application/json",
     "Content-Type: application/json",
-    "password: saiful13405",
-    "username: 8801711971811"
+    "password: ",
+    "username: "
   ],
 ]);
 
